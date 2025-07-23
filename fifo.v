@@ -17,5 +17,5 @@ output [3:0]q;
 dff d1(x,clk,rst,q[3]);
 dff d2(q[3],clk,rst,q[2]);
 dff d3(q[2],clk,rst,q[1]);
-dff d4(q[1],clk,rst,q[3]);
+  dff d4(q[1],clk,rst,q[0]);
 endmodule
